@@ -1,7 +1,7 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
   <groupId>project</groupId>
-  <artifactId>app</artifactId>
+  <artifactId>helloworld</artifactId>
   <version>1.0</version>
   <packaging>war</packaging>
   <properties>

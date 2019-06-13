@@ -3,6 +3,6 @@ node {
        git 'https://github.com/blueabjal/new.git'
     }
     stage('build') {
-        sh 'clean install'
+        sh 'mvn clean install'
     }
 }

@@ -10,7 +10,7 @@ node {
     }
     stage('push to docker hub') {
       withCredentials([usernameColonPassword(credentialsId: 'pass', variable: 'cred')]) {
-          sh "docker login hub.docker.com -u abjal -p $(cred)"  
+          sh "docker login hub.docker.com -u abjal -p ${cred}"  
       sh 'docker push abjal/repo/app:1.0'
     }
     } 

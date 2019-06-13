@@ -5,4 +5,7 @@ node {
     stage('build') {
         sh 'mvn clean install'
     }
+    stage('build docker image') {
+       sh 'docker build -t app:1.0 .'
+    }
 }

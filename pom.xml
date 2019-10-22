@@ -15,18 +15,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>ci-cd-releases</name>
-        <url>http://13.234.17.161:8081/artifactory/libs-snapshots-local</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>ci-cd-snapshots</name>
-        <url>http://13.234.17.161:8081/artifactory/libs-snapshots-local</url>
-    </snapshotRepository>
-  </distributionManagement>
   <build>
     <finalName>java-web-project</finalName>
   </build>

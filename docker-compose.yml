@@ -1,0 +1,11 @@
+version: "3.5"
+services:
+  app:
+    image: app:v%BUILD_ID%
+    ports:
+      - "80:8080"
+    networks:
+      frontend:
+networks:
+  frontend:
+    external: true

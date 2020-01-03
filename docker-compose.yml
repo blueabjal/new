@@ -1,7 +1,7 @@
 version: "3.5"
 services:
   app:
-    image: app:v%version%
+    image: app:v
     ports:
       - "80:8080"
     networks:

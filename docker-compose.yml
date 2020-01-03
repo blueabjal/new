@@ -1,7 +1,7 @@
 version: "3.5"
 services:
   crms:
-    image: app:vcrms_version
+    image: app:v9
     ports:
       - "80:8080"
     networks:
